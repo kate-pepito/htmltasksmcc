@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/smcc.png);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.textbox {
+    background-color: whitesmoke; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.column {
+    width: 30%;
+    background-color: #161757;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background-color: #161757;
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    width: 30%;
+    background-color: #161757;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.textbox2 {
+    background-color: #161757; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
