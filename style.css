@@ -1,9 +1,10 @@
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-image: url(images/smcc.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .container {
@@ -17,11 +18,32 @@ body {
     border-radius: 10px; 
 }
 
+.smalltextbox {
+    text-align: center;
+    background-color: #161757; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .column {
     width: 30%;
     background-color: #161757;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.column2 {
+    width: 60%;
+    background-color: #161757;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin:  0 auto;
+}
+
+.column2 a{
+    color: gold;
 }
 
 .container2 {
@@ -76,3 +98,15 @@ nav a {
     border-radius: 10px; 
 }
 
+.column3 {
+    width: 30%;
+    background-color: #161757;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin:  0 auto;
+}
+
+.column3 a{
+    color: gold;
+}
