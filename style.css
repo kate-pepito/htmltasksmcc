@@ -18,13 +18,6 @@ body {
     border-radius: 10px; 
 }
 
-.smalltextbox {
-    text-align: center;
-    background-color: #161757; /* Set your desired background color */
-    padding: 20px;
-    border-radius: 10px;
-}
-
 .column {
     width: 30%;
     background-color: #161757;
@@ -92,12 +85,6 @@ nav a {
     box-sizing: border-box;
 }
 
-.textbox2 {
-    background-color: #161757; 
-    padding: 20px; 
-    border-radius: 10px; 
-}
-
 .column3 {
     width: 30%;
     background-color: #161757;
@@ -109,4 +96,45 @@ nav a {
 
 .column3 a{
     color: gold;
+}
+
+h1 {
+    font-size: 200%; 
+    color: #161757; 
+    text-shadow:3px 3px gold;
+}
+
+h1 {
+    font-size: 200%; 
+    color: #161757; 
+    text-shadow:3px 3px gold;
+}
+
+h2 {
+    color: gold;
+}
+
+#service ul {
+    color: gold;
+}
+
+footer {
+    text-align: center; 
+    background-color: #161757;
+}
+
+@media screen and (max-width: 768px) {
+    .container,
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column,
+    .column2,
+    .column3 {
+        width: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
 }
