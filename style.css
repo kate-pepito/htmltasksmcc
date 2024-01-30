@@ -126,8 +126,11 @@ footer {
 @media screen and (max-width: 768px) {
     .container,
     .container2 {
+        width: 90%;
+        padding: 10px;
         flex-direction: column;
         align-items: center;
+        box-sizing: border-box;
     }
 
     .column,
