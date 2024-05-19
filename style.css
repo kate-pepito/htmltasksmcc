@@ -98,6 +98,17 @@ nav a {
     color: gold;
 }
 
+.column2 h2{
+    color: gold ;
+}
+
+.column3 h2{
+    color: gold;
+}
+
+.column3 table{
+    justify-content: center;
+}
 h1 {
     font-size: 200%; 
     color: #161757; 
